@@ -1,0 +1,249 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.header .background{
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+/* .logo{
+	display: flex;
+} */
+.logo .logo-img{
+	max-width: 100px;
+	height: 60px;
+}
+.header{
+	width: 100%;
+	min-height: 100vh;
+	/* background: url(/image/College.jpeg); */
+	position: relative;
+	
+	
+}
+/* .header img{
+	height: 100px;
+} */
+nav{
+	display: flex;
+
+	padding: 0px 4px;
+}
+
+.navigation{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+}
+.nav-links ul{
+	display: flex;
+
+}
+
+.nav-links ul li{
+	list-style-type: none;
+}
+.nav-links ul li a{
+	text-decoration: none;
+	padding: 22px;
+	font-size: 1.2rem;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	transition: 0.5s;
+
+}
+.nav-links ul li  ::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background-color: aqua;
+	display: block;
+	margin: auto;
+	
+}
+.nav-links ul li a:hover {
+	width: 100%;
+	letter-spacing: 3px;
+	text-decoration: underline;
+}
+.text-box{
+	width: 90%;
+	color: white;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%);
+	text-align: center;
+	
+}
+.text-box h1{
+	font-size: 50px;
+	color: rgb(241, 18, 48);
+	font-family: 'Roboto Flex', sans-serif;
+}
+/* nav.fa{
+	display: none;
+} */
+/* @media(max-width: 700px)
+{
+	.text-box h1{
+		font-size: 20px;
+	}
+	.nav-links ul li{
+		display: block;
+	}
+	.nav-links{
+		position: absolute;
+		background: black;
+		height: 100vh;
+		width: 200px;
+		top: 0;
+		right: -200px;
+		text-align: left;
+		z-index: 2;
+		transition: 0.1s;
+	}
+	nav .fa{
+		display: block;
+		color: white;
+		margin: 10px;
+		font-size: 22px;
+		cursor: pointer;
+	}
+	.nav-links ul{
+		padding: 30px;
+	}
+} */
+.Moments{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+}
+.Moments h1{
+	font-size: 36px;
+	font-weight: 600;
+}
+.Moments p{
+	color: red;
+	font-size: 14px;
+	font-weight: 300px;
+	line-height: 22px;
+	padding: 10px;
+}
+.row{
+margin-top: 5%;
+display: flex;
+justify-content: space-between;
+	
+}
+.Moments-col{
+	flex-basis: 31%;
+	background-color: bisque;
+	border-radius: 50%;
+	padding: 20px 12px;
+	box-sizing: row;
+}
+.Moments-col h3{
+	text-align: center;
+	font-weight: 600px;
+	margin: 10px 0px;
+}
+.Moments-col :hover{
+	box-shadow: 0px 0px 20px 0px;
+	border-radius: 50%;
+}
+.campus{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+	
+
+}
+.campus-col{
+	flex-basis: 31%;
+     position: relative;
+	 overflow: hidden;
+}
+.campus-col img{
+	width: 100%;
+	display: block;
+	height: 450px;
+}
+.layer{
+	color: azure;
+	background: transparent;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 0.5s;
+}
+.layer :hover{
+	background: rgba(226,100,50,0.7);
+}
+.layer h3{
+	height: 100%;
+	width: 100%;
+	font-weight: 500;
+	color: white;
+	font-size: 26px;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	opacity: 0;
+	transition: 0.5s;
+	padding-top: 80%;
+}
+.layer h3:hover{
+	/* bottom: 49%; */
+	opacity: 1;
+}
+.contact{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+	
+
+}
+/* .contact{
+	margin: 20px;
+	padding: 10px;
+} */
+.contact img{
+	padding: 10;
+	margin: 20;
+	width: 100PX;
+	height: 100PX;
+	border-radius: 100%;
+}
+.contact h3{
+	font-size: 12px;
+	text-align: center;
+	font-family: 'Playball', cursive;
+}
+.feedback{
+	text-align: center;
+	margin-top: 20px;
+}
+#x{
+	width: 200px;
+	height: 200px;
+}
+.foot{
+	margin-top: 20px;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
