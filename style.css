@@ -141,7 +141,9 @@ nav{
 .row{
 margin-top: 5%;
 display: flex;
-justify-content: space-between;
+display: auto;
+/* justify-content: space-between; */
+
 	
 }
 .Moments-col{
@@ -150,6 +152,7 @@ justify-content: space-between;
 	border-radius: 50%;
 	padding: 20px 12px;
 	box-sizing: row;
+	margin: 10px;
 }
 .Moments-col h3{
 	text-align: center;
@@ -177,6 +180,8 @@ justify-content: space-between;
 	width: 100%;
 	display: block;
 	height: 450px;
+	margin: 50px;
+	padding: 50px;
 }
 .layer{
 	color: azure;
